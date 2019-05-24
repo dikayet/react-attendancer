@@ -1,0 +1,29 @@
+.index nav a 
+  color: #000 !important
+
+.tabs
+  margin-bottom: 2rem
+  border-bottom: 1px solid #eee
+  padding-bottom: .4rem
+  text-align: left
+  a
+    background-color: #fff
+    padding: .5rem 1rem
+    margin: 0 1rem
+    margin-bottom: .5rem
+    &:hover
+      text-decoration: none
+      outline: 1px solid #eee
+    &.active
+      position: relative
+      z-index: 2
+      outline: 1px solid #eee
+      outline-bottom: none
+      &::after
+        content: ''
+        position: absolute
+        top: 99%
+        left: 0
+        right: 0
+        height: 5px
+        background-color: #fff

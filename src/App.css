@@ -1,5 +1,27 @@
 .App {
   text-align: center;
+  margin-top: 8rem;
+}
+
+nav a,
+nav button {
+  color: #fff !important;
+}
+nav a:hover {
+  text-decoration: none;
+}
+nav span {
+  color: #fff;
+  cursor: pointer;
+}
+nav span:hover {
+  text-decoration: underline;
+}
+
+.App input,
+.App button {
+  display: block;
+  margin: .5rem auto;
 }
 
 .App-logo {
